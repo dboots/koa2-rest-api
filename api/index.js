@@ -1,9 +1,9 @@
 const Router = require('koa-router');
 const compose = require('koa-compose');
 
-var foo = require('./foo/foo.routes');
+var signup = require('./signup/signup.routes');
 
-var routes = { foo };
+var routes = { signup };
 
 module.exports = function api() {
     let prefix = '/api';
